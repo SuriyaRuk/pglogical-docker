@@ -1,2 +1,2 @@
-FROM  docker.io/library/postgres:16.4
-RUN apt update && apt install postgresql-16-pglogical
+FROM  docker.io/library/postgres:17.0
+RUN apt update && apt install postgresql-17-pglogical
